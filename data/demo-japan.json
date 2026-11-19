@@ -1,0 +1,48 @@
+{
+  "country": {
+    "code": "JP",
+    "name": "日本",
+    "english_name": "Japan"
+  },
+  "base_period": "2025-Q2",
+  "base_metrics": {
+    "inbound_visitors": 10250000,
+    "outbound_visitors": 4800000,
+    "city_visits": 10060000,
+    "attraction_admissions": 6970000
+  },
+  "trend": [
+    { "year": 2024, "quarter": 1, "period_key": "2024-Q1", "inbound_visitors": 8130000, "outbound_visitors": 4200000, "city_visits": 7920000, "attraction_admissions": 5440000 },
+    { "year": 2024, "quarter": 2, "period_key": "2024-Q2", "inbound_visitors": 9150000, "outbound_visitors": 4380000, "city_visits": 8980000, "attraction_admissions": 6240000 },
+    { "year": 2024, "quarter": 3, "period_key": "2024-Q3", "inbound_visitors": 8760000, "outbound_visitors": 4560000, "city_visits": 8430000, "attraction_admissions": 5990000 },
+    { "year": 2024, "quarter": 4, "period_key": "2024-Q4", "inbound_visitors": 9340000, "outbound_visitors": 4710000, "city_visits": 9160000, "attraction_admissions": 6420000 },
+    { "year": 2025, "quarter": 1, "period_key": "2025-Q1", "inbound_visitors": 9680000, "outbound_visitors": 4220000, "city_visits": 9510000, "attraction_admissions": 6580000 },
+    { "year": 2025, "quarter": 2, "period_key": "2025-Q2", "inbound_visitors": 10250000, "outbound_visitors": 4800000, "city_visits": 10060000, "attraction_admissions": 6970000 },
+    { "year": 2025, "quarter": 3, "period_key": "2025-Q3", "inbound_visitors": 9120000, "outbound_visitors": 4960000, "city_visits": 8950000, "attraction_admissions": 6170000 },
+    { "year": 2025, "quarter": 4, "period_key": "2025-Q4", "inbound_visitors": 10880000, "outbound_visitors": 5150000, "city_visits": 10470000, "attraction_admissions": 7320000 }
+  ],
+  "markets": [
+    { "code": "CN", "name": "中国籍", "origin_market_type": "nationality", "visitors": 2180000 },
+    { "code": "KR", "name": "韩国籍", "origin_market_type": "nationality", "visitors": 1910000 },
+    { "code": "US", "name": "美国籍", "origin_market_type": "nationality", "visitors": 1160000 },
+    { "code": "AU", "name": "澳大利亚籍", "origin_market_type": "nationality", "visitors": 880000 },
+    { "code": "CA", "name": "加拿大籍", "origin_market_type": "nationality", "visitors": 620000 },
+    { "code": "GB", "name": "英国籍", "origin_market_type": "nationality", "visitors": 390000 },
+    { "code": "OTHER", "name": "其他国籍", "origin_market_type": "nationality", "visitors": 3110000 }
+  ],
+  "cities": [
+    { "id": "tokyo", "name": "东京", "visitors": 4350000, "yoy_pct": 12.4 },
+    { "id": "kyoto", "name": "京都", "visitors": 1800000, "yoy_pct": 8.7 },
+    { "id": "osaka", "name": "大阪", "visitors": 1750000, "yoy_pct": 16.8 },
+    { "id": "sapporo", "name": "札幌", "visitors": 1160000, "yoy_pct": 11.1 },
+    { "id": "nara", "name": "奈良", "visitors": 1000000, "yoy_pct": 7.4 }
+  ],
+  "attractions": [
+    { "id": "sensoji", "name": "浅草寺", "city_id": "tokyo", "city_name": "东京", "category": "文化与寺庙", "visitors": 2070000, "yoy_pct": 9.8 },
+    { "id": "tokyo-tower", "name": "东京塔", "city_id": "tokyo", "city_name": "东京", "category": "城市地标", "visitors": 1230000, "yoy_pct": 14.2 },
+    { "id": "fushimi-inari", "name": "伏见稻荷大社", "city_id": "kyoto", "city_name": "京都", "category": "文化与寺庙", "visitors": 1620000, "yoy_pct": 10.6 },
+    { "id": "osaka-castle", "name": "大阪城公园", "city_id": "osaka", "city_name": "大阪", "category": "历史与公园", "visitors": 1090000, "yoy_pct": 13.1 },
+    { "id": "nara-park", "name": "奈良公园", "city_id": "nara", "city_name": "奈良", "category": "自然与户外", "visitors": 960000, "yoy_pct": 7.4 }
+  ],
+  "source_label": "模拟演示数据 · 非官方统计 · 尚未连接真实数据源"
+}
